@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 5-Automata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>NFA Project for Automata</h1>
+        <p>Enter a string that begins with 1 and ends with 0:</p>
+        <input type="text" id="inputString" placeholder="for example: 1010, 101010...">
+        <button onclick="processFSM()">Test</button>
+        <button onclick="toggleImage()">Show Graph</button>
+        <pre id="output"></pre>
+    </div>
+
+    <div class="image-container" id="imageContainer">
+        <img src="graph.png">
+    </div>
+
+</body>
+
+<script src="image.js"></script>
+<script src="script.js"></script>
+
+</html>
